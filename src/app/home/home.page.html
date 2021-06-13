@@ -1,0 +1,30 @@
+<!-- Book cover -->
+
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1>The Lorem Ringsum: Electric Boogaloo Remix</h1>
+  <button class="button button-clear" style="background-image:url('assets/images/ch1.jpg'); background-size:cover">
+    <img src="assets/images/ch1.jpg"  [routerDirection]="'root'"
+    [routerLink]="['/toc']"/>
+    <a url="/toc"></a>
+  </button>
+
+  <ion-footer class="ion-no-border">
+    <ion-toolbar>
+      <ion-title class="tinyText"
+        >Made with
+        <a href="https://lotremipsum.com/result-basic.php"
+          >LOTREM IPSUM</a
+        ></ion-title
+      >
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>

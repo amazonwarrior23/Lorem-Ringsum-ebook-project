@@ -1,0 +1,11 @@
+html {
+    overflow: hidden;
+  }
+  
+  @media (min-width: 600px) {
+    html {
+      padding: 2rem;
+      margin: 15px;
+      overflow: visible;
+    }
+  }

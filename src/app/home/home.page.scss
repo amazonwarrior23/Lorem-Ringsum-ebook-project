@@ -1,0 +1,24 @@
+html {
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  html {
+    padding: 2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: visible;
+  }
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #3c6471;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.tinyText {
+  font-size: 8px;
+  text-align: center;
+}
